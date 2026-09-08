@@ -1,6 +1,6 @@
 # Homebrew formula for the lingvo CLI.
 #
-# This file is a template. `.github/workflows/release-cli.yml` fills in 0.1.0 and d08db7cf0ff75da8126fb07f15c39b155261cd900c7ba2b46b1c149d9a223d98 on
+# This file is a template. `.github/workflows/release-cli.yml` fills in 0.2.0 and 4bea1ee8026b829b4ecab47699b7642ea3485b94ce0dbcff78183f16e45c86ad on
 # every tagged release and writes the result to the tap repository as Formula/lingvo.rb.
 #
 # The tap is a separate, public repository holding this one file and nothing else:
@@ -18,9 +18,9 @@
 class Lingvo < Formula
   desc "Localization without word limits"
   homepage "https://lingvo.dev"
-  url "https://github.com/Merkost/homebrew-lingvo/releases/download/v0.1.0/lingvo-0.1.0.zip"
-  version "0.1.0"
-  sha256 "d08db7cf0ff75da8126fb07f15c39b155261cd900c7ba2b46b1c149d9a223d98"
+  url "https://github.com/Merkost/homebrew-lingvo/releases/download/v0.2.0/lingvo-0.2.0.zip"
+  version "0.2.0"
+  sha256 "4bea1ee8026b829b4ecab47699b7642ea3485b94ce0dbcff78183f16e45c86ad"
 
   depends_on "openjdk@21"
 
